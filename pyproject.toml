@@ -1,0 +1,13 @@
+[project]
+name = "crewaiproject"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=0.201.1",
+    "crewai-tools>=0.75.0",
+    "google-api-python-client>=2.184.0",
+    "google-generativeai>=0.8.5",
+    "load-dotenv>=0.1.0",
+]
